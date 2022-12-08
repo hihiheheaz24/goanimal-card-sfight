@@ -1,0 +1,44 @@
+[debug] [2022-12-08T02:41:05.428Z] ----------------------------------------------------------------------
+[debug] [2022-12-08T02:41:05.429Z] Command:       /usr/local/bin/node /usr/local/bin/firebase init hosting
+[debug] [2022-12-08T02:41:05.430Z] CLI Version:   11.17.0
+[debug] [2022-12-08T02:41:05.430Z] Platform:      darwin
+[debug] [2022-12-08T02:41:05.430Z] Node Version:  v17.1.0
+[debug] [2022-12-08T02:41:05.431Z] Time:          Thu Dec 08 2022 09:41:05 GMT+0700 (Indochina Time)
+[debug] [2022-12-08T02:41:05.431Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-12-08T02:41:05.484Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2022-12-08T02:41:05.484Z] > authorizing via signed-in user (vn.chelsea.96@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /Users/mac/Documents
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2022-12-08T02:41:05.487Z] Using project from CLI flag: vpl-poker
+[debug] [2022-12-08T02:41:05.489Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/vpl-poker [none]
+[debug] [2022-12-08T02:41:06.034Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/vpl-poker 200
+[debug] [2022-12-08T02:41:06.035Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/vpl-poker {"projectId":"vpl-poker","projectNumber":"623529116150","displayName":"VPL Poker","name":"projects/vpl-poker","resources":{"hostingSite":"vpl-poker"},"state":"ACTIVE","etag":"1_8a6fbea9-6b64-4c36-b4a0-cbf58c95506f"}
+[info] i  Using project vpl-poker (VPL Poker) 
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
